@@ -48,9 +48,12 @@ Setup
 Usage
 
 - To run the script and upload data to the sheet:
+
   ```
   python run.py
   ```
+
+- Please check this Google Sheet for detailed schema: [Click Here](https://docs.google.com/spreadsheets/d/1hBCQiWgc2MRUXzfP6hRo8VAzgxzHGkYxNS0VLUFr0Qc)
 
 Notes and caveats
 
