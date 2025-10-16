@@ -23,7 +23,6 @@ response = requests.post(url, headers=headers)
 if response.ok:
     contact_list = response.json()
     
-    sheet_url = "https://docs.google.com/spreadsheets/d/1hBCQiWgc2MRUXzfP6hRo8VAzgxzHGkYxNS0VLUFr0Qc"
-    save_to_sheet(contact_list, sheet_url)
+    save_to_sheet(contact_list, SHEET_URL)
 else:
     print(response.status_code, response.text)

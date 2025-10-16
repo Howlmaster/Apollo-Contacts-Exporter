@@ -21,14 +21,12 @@ Setup
    ```
    python -m venv .venv
    .\venv\Scripts\Activate
-
    ```
 
 2. Install dependencies:
 
    ```
    python -m pip install -r requirements.txt
-
    ```
 
 3. Place your Google service account JSON file in the project root and name it `service_account.json`
