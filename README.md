@@ -18,29 +18,41 @@ Setup
 
 1. Create and activate a virtual environment (recommended):
 
-   python -m venv .venv; .\.venv\Scripts\Activate
+   ```
+   python -m venv .venv
+   .\venv\Scripts\Activate
+
+   ```
 
 2. Install dependencies:
 
+   ```
    python -m pip install -r requirements.txt
+
+   ```
 
 3. Place your Google service account JSON file in the project root and name it `service_account.json`
 
 4. Create a `.env` file in the project root with the following variables:
 
+   ```
    SHEET_URL=<your-google-sheet-url>
    API_KEY=<your-apollo-api-key>
+   ```
 
    Example `.env` content:
 
+   ```
    SHEET_URL=https://docs.google.com/spreadsheets/d/your_sheet_id
    API_KEY=abcd1234
+   ```
 
 Usage
 
 - To run the script and upload data to the sheet:
-
+  ```
   python run.py
+  ```
 
 Notes and caveats
 
